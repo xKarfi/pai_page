@@ -1,0 +1,172 @@
+body
+{
+    font-family: 'Kaushan Script', cursive;
+    margin: 0;
+}
+#header
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 9px;
+}
+#logo
+{
+    margin-right: 27%;
+    margin-left:  1%;
+}
+#menu
+{
+   font-size: 20px;
+  margin-top: 10px;
+  word-spacing: 10px;
+  margin-right: 30%;
+  color:#E6259C;
+}
+
+#phone
+{
+    margin-top: 12px;
+    margin-right: 5%;
+}
+#shopping
+{
+    margin-top: 4px;
+    
+}
+#content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("header-background.jpeg");
+    filter: sepia(55%) saturate(160%) contrast(80%);
+    background-size:100% 115vh;
+    margin-bottom: 20px;
+    
+}
+
+#xd
+{
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+span{
+    color: #F72585;
+    font-size: 60px;
+}
+
+h3
+{
+    border: 3px solid;
+    padding: 3px 13px 3px 13px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+    flex-flow: wrap;
+}
+
+#downL
+{
+    width: 30%;
+    margin-left: 250px;
+    margin-right:100px;
+}
+
+#downL p
+{
+    color: #A7A7A0;
+}
+
+#downR
+{
+    border: 7px solid #FCE173;
+    width: 500px;
+    height: 400px;
+}
+
+#downR img
+{
+    width: 500px;
+    height: 400px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#down
+{
+    height: 68vh;
+}
+
+.explor
+{
+    border: 2px solid;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+    width: 18%;
+    letter-spacing: 1px;
+}
+
+#footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #ECE9EB;
+    height: 40vh;
+}
+
+.all
+{
+    border: 2px solid;
+    padding: 7px 12px 7px 12px;
+    border-radius: 5px;
+    margin-right: 57px;
+    height: 3vh;
+}
+
+.fa-search
+{
+    background-color: #F72585;
+    padding: 10px;
+    height: 18px;
+    width: 20px;
+    text-align: center;    
+}
+
+#wyszukiwarka
+{
+    height: 15vh;
+    width: 50%;
+}
+#item
+{
+    padding:9px;
+    width: 80%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 1px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#search
+{
+    margin-left: 90px;
+    
+}
+
+.fa-shopping-cart
+{
+    margin-right: 10px;
+}
